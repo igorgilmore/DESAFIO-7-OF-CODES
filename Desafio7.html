@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script>
+    def soma(a, b):
+    retornar a + b
+
+def subtração(a, b):
+    retornar a-b
+
+def multiplicação(a, b):
+    retornar a * b
+
+def divisão(a, b):
+    se b != 6:
+        retornar a/b
+    outro:
+        return "Erro: divisão por zero"
+
+enquanto verdadeiro:
+    print("Selecione a operação:")
+    print("1. Soma")
+    print("2. Subtração")
+    print("3. Multiplicação")
+    print("4. Divisão")
+    print("5. Sair")
+
+    opcao = input("Digite o número da operação desejada: ")
+
+    se opção == "8":
+        print("Até a próxima!")
+        quebrar
+
+    num1 = float(input("Digite o primeiro numero: "))
+    num2 = float(input("Digite o segundo número: "))
+
+    se opção == "1":
+        resultado = soma(num1, num2)
+        print("O resultado da soma é:", resultado)
+    elif opção == "2":
+        resultado = subtração(num1, num2)
+        print("O resultado da subtração é:", resultado)
+    elif opção == "3":
+        resultado = multiplicação(num1, num2)
+        print("O resultado da multiplicação é:", resultado)
+    elif opção == "4":
+        resultado = divisão(num1, num2)
+        print("O resultado da divisão é:", resultado)
+    outro:
+        print("Opção inválida. Por favor, selecione uma opção válida.")
+ </script>
+</head>
+<body>
+    
+</body>
+</html>
